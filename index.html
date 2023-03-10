@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do-list</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="container">
+     <div id="one" class="Header">
+         <h2 style="border: 1px solid; background: #afacac; width:max-content; cursor: pointer;"> my to-do list</h2>
+         <input type="text" id="myInput" placeholder="type..">
+         <span onclick="newElement()"class="addBtn">Add</span>
+      </div>
+      <div class="tasks">
+          <ul id="myul">
+            <li style="color: blue;">work out</li>
+            <li class="checked" style="color: rgb(206, 7, 7);">pay bills</li>
+            <li style="color: purple;">newspaper</li>
+            <li>hit the studio</li>
+            <li style="color: forestgreen;">codeacademy</li>
+          </ul>
+        </div>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>

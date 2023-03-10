@@ -1,0 +1,86 @@
+
+* {box-sizing: border-box;
+   
+}
+
+ul{
+    margin: 1%;
+    padding: 1%;
+}
+body{
+    background-color: cornsilk;
+    border: 2px solid;
+    border-radius: 2px 5px;
+    min-height: 450%;
+    margin:2%;
+    padding: 1%;
+}
+ul li{ 
+    list-style-type: none;
+    border: 3px solid;
+    border-radius: 4px 5px;
+    height: 9vh;
+    width: 350px;
+    position: relative;
+    text-align: left;
+    font: 1em sans-serif;
+   text-shadow: 25px 20px 5px;
+   cursor: pointer;
+   border-style:outset;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+    user-select: none;
+}
+
+#myInput{
+    border: 3px solid;
+    border-radius: 4px 5px;
+    height: 5vh;
+    width: 350px;
+    position:relative;
+    text-align: left;
+    font: small-caps; 
+    margin: 2%;
+
+}
+.addBtn{
+    border: 2px solid;
+    left: 30px;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 20px;
+    transition: 0s;
+    padding: 10px 20px 5px 5px;
+    right: 200px;
+    min-height: fit-content;
+    background:#575555;
+    color: #f5efef;
+
+}
+.Header{
+    border: 2px solid;
+    background-color: rgb(130, 168, 240);
+    padding: 10px;
+    margin: 0;
+}
+ul li:hover{background-color: rgb(206, 202, 202);
+          transition: 1s;
+
+}
+.tasks{
+    border: 10px solid;
+    border-radius: 5px;
+    border-style: outset;
+}
+
+ul li :nth-last-child(odd){
+    background-color: #f9f9f9f9;
+
+}
+li.checked{
+   background: #888;
+   color: #fff;
+}
+
+
